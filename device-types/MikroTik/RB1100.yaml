@@ -1,0 +1,45 @@
+---
+manufacturer: MikroTik
+model: RB1100
+slug: mikrotik-rb1100
+part_number: RB1100
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+comments: '[RB1100 Datasheet](https://mikrotik.com/product/RB1100)'
+is_powered: true
+interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 100base-tx
+  - name: ether7
+    type: 1000base-tx
+  - name: ether8
+    type: 1000base-tx
+  - name: ether9
+    type: 1000base-tx
+  - name: ether10
+    type: 1000base-tx
+  - name: ether11
+    type: 1000base-tx
+  - name: ether12
+    type: 1000base-tx
+  - name: ether13
+    type: 1000base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+power-ports:
+  - name: psu1
+    type: dc-terminal
+console-ports:
+  - name: serial0
+    type: de-9
